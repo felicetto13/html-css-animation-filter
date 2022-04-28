@@ -74,15 +74,12 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
-    transition: filter 1.5s ease,
-                border-radius 1.5s linear,
-                transform 1.5s ease-in-out,
-                margin-left 1.5 ease-out;
+    transition: filter 1.5s ease, border-radius 1.5s linear, transform 1.5s ease-in-out, margin-left 1.5 ease-out;
                 
 }
 .ex-9-img:hover {
     transition: 2s;
-    filter: blur(1);
+    filter: blur(2px);
     border-radius: 10px;
     transform: scale(150%);
     margin-left: 250px;
