@@ -53,6 +53,24 @@
     width: 500px;
 }
 
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+.ex-7-img {
+    transition: 1.5s;
+}
+.ex-7-img:hover {
+    transition: 1.5s;
+    filter: grayscale(1);
+}
+.ex-8-img {
+    transition: opacity 1.5s ease-in-out 1s, border-radius 1.5s linear .5s, filter 1.5s ease-in;
+}
+.ex-8-img:hover {
+    opacity: .75;
+    border-radius: 10px;
+    filter: contrast(5);
+}
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
