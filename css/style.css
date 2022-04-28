@@ -87,6 +87,20 @@
 .ex-10-icon {
     font-size: 60px;
 }
+.ex-10-icon{
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+}
+@keyframes rotate {
+    
+    0% {
+        transform: rotate(1turn);
+    }
+}
 .ex-11-icon {
     font-size: 60px;
 }
